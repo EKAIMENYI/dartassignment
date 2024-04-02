@@ -16,6 +16,17 @@
             "request": "attach"
         },
         {
+            "name": "Dart",
+            "type": "dart",
+            "request": "launch",
+            "program": "bin/main.dart"
+        },
+        {
+            "name": "Dart: Attach to Process",
+            "type": "dart",
+            "request": "attach"
+        },
+        {
             "name": "Dart & Flutter",
             "request": "launch",
             "type": "dart"
