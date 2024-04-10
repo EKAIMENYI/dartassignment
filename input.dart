@@ -35,6 +35,13 @@ void main() {
   //do calculation ie addation
   if (num1 != null && num2 != null) {
     double? sum = num1 + num2;
+    double? subtraction = num1 - num2;
+    double? multiplication = num1 * num2;
+    double? division = num1 / num2;
+
     print("The sum of numbers you have entered is: $sum");
+    print("The subtrraction of numbers you have entered is: $subtraction");
+    print("The Division of numbers you have entered is: $division");
+    print("The Multiplication of numbers you have entered is: $multiplication");
   }
 }
